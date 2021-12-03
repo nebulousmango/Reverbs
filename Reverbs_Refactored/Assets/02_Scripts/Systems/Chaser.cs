@@ -7,7 +7,7 @@ public class Chaser : MonoBehaviour
 {
     public bool isTriggered;
 
-    [Range(1,5)]
+    [Range(0,5)]
     public float chaseSpeed;
 
     public ZoneListener2D triggerZone;
@@ -41,7 +41,7 @@ public class Chaser : MonoBehaviour
         LookAtChasee();
         distanceToChasee = triggerZone.inZone.transform.position - transform.position;
         transform.position += distanceToChasee * chaseSpeed * Time.deltaTime;
-        transform.DOMoveY(yLock, Time.deltaTime);
+        //transform.DOMoveY(yLock, Time.deltaTime);
     }
 
     public void LookAtChasee()

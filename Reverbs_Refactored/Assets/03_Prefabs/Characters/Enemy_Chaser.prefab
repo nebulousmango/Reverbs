@@ -186,7 +186,7 @@ MonoBehaviour:
   onZoneEnter:
     _PersistentCalls:
     - _Target: {fileID: 0}
-      _MethodName: OnDeath
+      _MethodName: .OnDeath
       _PersistentArguments: []
   onZoneExit:
     _PersistentCalls: []
@@ -319,6 +319,6 @@ SpriteRenderer:
   m_Size: {x: 10.24, y: 10.24}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
